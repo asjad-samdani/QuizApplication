@@ -1,0 +1,1082 @@
+[
+  {
+    "questionTitle": "What does HTML stand for?",
+    "option1": "Hyper Text Markup Language",
+    "option2": "Home Tool Markup Language",
+    "option3": "Hyperlinks and Text Markup Language",
+    "option4": "None of the Above",
+    "rightAnswer": "Hyper Text Markup Language",
+    "difficultylevel": "Easy",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "Which of the following is used to style HTML elements?",
+    "option1": "CSS",
+    "option2": "JavaScript",
+    "option3": "Python",
+    "option4": "PHP",
+    "rightAnswer": "CSS",
+    "difficultylevel": "Easy",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Inside which HTML element do we put the JavaScript?",
+    "option1": "<script>",
+    "option2": "<javascript>",
+    "option3": "<js>",
+    "option4": "<code>",
+    "rightAnswer": "<script>",
+    "difficultylevel": "Easy",
+    "category": "JavaScript"
+  },
+  {
+    "questionTitle": "Which of the following is not a JavaScript data type?",
+    "option1": "Undefined",
+    "option2": "Number",
+    "option3": "Boolean",
+    "option4": "Float",
+    "rightAnswer": "Float",
+    "difficultylevel": "Medium",
+    "category": "JavaScript"
+  },
+  {
+    "questionTitle": "What is the correct syntax for referring to an external script called 'xyz.js'?",
+    "option1": "<script src='xyz.js'>",
+    "option2": "<script href='xyz.js'>",
+    "option3": "<script ref='xyz.js'>",
+    "option4": "<script name='xyz.js'>",
+    "rightAnswer": "<script src='xyz.js'>",
+    "difficultylevel": "Medium",
+    "category": "JavaScript"
+  },
+  {
+    "questionTitle": "Which HTML tag is used to define an internal style sheet?",
+    "option1": "<style>",
+    "option2": "<css>",
+    "option3": "<script>",
+    "option4": "<link>",
+    "rightAnswer": "<style>",
+    "difficultylevel": "Easy",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "Which HTML attribute is used to define inline styles?",
+    "option1": "class",
+    "option2": "style",
+    "option3": "font",
+    "option4": "styles",
+    "rightAnswer": "style",
+    "difficultylevel": "Easy",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "How do you write 'Hello World' in an alert box?",
+    "option1": "alert('Hello World');",
+    "option2": "msg('Hello World');",
+    "option3": "msgBox('Hello World');",
+    "option4": "alertBox('Hello World');",
+    "rightAnswer": "alert('Hello World');",
+    "difficultylevel": "Easy",
+    "category": "JavaScript"
+  },
+  {
+    "questionTitle": "Which property is used to change the background color in CSS?",
+    "option1": "bgcolor",
+    "option2": "background-color",
+    "option3": "color",
+    "option4": "bg-color",
+    "rightAnswer": "background-color",
+    "difficultylevel": "Easy",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Which CSS property controls the text size?",
+    "option1": "font-style",
+    "option2": "text-size",
+    "option3": "font-size",
+    "option4": "text-style",
+    "rightAnswer": "font-size",
+    "difficultylevel": "Medium",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "How do you create a function in JavaScript?",
+    "option1": "function = myFunction()",
+    "option2": "function:myFunction()",
+    "option3": "function myFunction()",
+    "option4": "func myFunction()",
+    "rightAnswer": "function myFunction()",
+    "difficultylevel": "Easy",
+    "category": "JavaScript"
+  },
+  {
+    "questionTitle": "How do you add a comment in CSS?",
+    "option1": "// this is a comment",
+    "option2": "' this is a comment",
+    "option3": "/* this is a comment */",
+    "option4": "// this is a comment //",
+    "rightAnswer": "/* this is a comment */",
+    "difficultylevel": "Easy",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Which HTML element is used to specify a footer for a document or section?",
+    "option1": "<bottom>",
+    "option2": "<footer>",
+    "option3": "<section>",
+    "option4": "<foot>",
+    "rightAnswer": "<footer>",
+    "difficultylevel": "Medium",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "Which HTML element is used to define important text?",
+    "option1": "<important>",
+    "option2": "<b>",
+    "option3": "<strong>",
+    "option4": "<em>",
+    "rightAnswer": "<strong>",
+    "difficultylevel": "Medium",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "What is the correct syntax to output 'Hello World' in Java?",
+    "option1": "System.out.println('Hello World');",
+    "option2": "echo('Hello World');",
+    "option3": "Console.WriteLine('Hello World');",
+    "option4": "print('Hello World');",
+    "rightAnswer": "System.out.println('Hello World');",
+    "difficultylevel": "Easy",
+    "category": "Java"
+  },
+  {
+    "questionTitle": "Which company developed Java?",
+    "option1": "Microsoft",
+    "option2": "Apple",
+    "option3": "Sun Microsystems",
+    "option4": "Google",
+    "rightAnswer": "Sun Microsystems",
+    "difficultylevel": "Medium",
+    "category": "Java"
+  },
+  {
+    "questionTitle": "Which data type is used to create a variable that should store text in Java?",
+    "option1": "String",
+    "option2": "Txt",
+    "option3": "myString",
+    "option4": "string",
+    "rightAnswer": "String",
+    "difficultylevel": "Easy",
+    "category": "Java"
+  },
+  {
+    "questionTitle": "How can you create an object in Java?",
+    "option1": "ClassName obj = new ClassName();",
+    "option2": "ClassName obj = new ClassName[];",
+    "option3": "ClassName obj = new ClassName();",
+    "option4": "ClassName obj = new ClassName;",
+    "rightAnswer": "ClassName obj = new ClassName();",
+    "difficultylevel": "Medium",
+    "category": "Java"
+  },
+  {
+    "questionTitle": "What is the correct way to declare a variable in JavaScript?",
+    "option1": "v carName;",
+    "option2": "var carName;",
+    "option3": "variable carName;",
+    "option4": "String carName;",
+    "rightAnswer": "var carName;",
+    "difficultylevel": "Easy",
+    "category": "JavaScript"
+  },
+  {
+    "questionTitle": "Which of the following is a correct CSS syntax?",
+    "option1": "body:color=black;",
+    "option2": "{body;color:black;}",
+    "option3": "body {color: black;}",
+    "option4": "body = color (black);",
+    "rightAnswer": "body {color: black;}",
+    "difficultylevel": "Medium",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Which of these selectors are used to select an element by its id?",
+    "option1": "#",
+    "option2": ".",
+    "option3": "*",
+    "option4": "^",
+    "rightAnswer": "#",
+    "difficultylevel": "Medium",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Which method is used to find the length of a string in JavaScript?",
+    "option1": "length()",
+    "option2": "len()",
+    "option3": "lengthof()",
+    "option4": "size()",
+    "rightAnswer": "length()",
+    "difficultylevel": "Easy",
+    "category": "JavaScript"
+  },
+  {
+    "questionTitle": "Which operator is used to assign a value to a variable in Java?",
+    "option1": "*",
+    "option2": "=",
+    "option3": "-",
+    "option4": "+",
+    "rightAnswer": "=",
+    "difficultylevel": "Easy",
+    "category": "Java"
+  },
+  {
+    "questionTitle": "Which HTML tag is used to define an unordered list?",
+    "option1": "<ul>",
+    "option2": "<ol>",
+    "option3": "<li>",
+    "option4": "<list>",
+    "rightAnswer": "<ul>",
+    "difficultylevel": "Easy",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "How can you create a hyperlink that opens in a new tab in HTML?",
+    "option1": "<a href='url' new>",
+    "option2": "<a href='url' target='_new'>",
+    "option3": "<a href='url' target='_blank'>",
+    "option4": "<a href='url' target='_tab'>",
+    "rightAnswer": "<a href='url' target='_blank'>",
+    "difficultylevel": "Medium",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "Which attribute is used to specify an image file in HTML?",
+    "option1": "src",
+    "option2": "href",
+    "option3": "alt",
+    "option4": "link",
+    "rightAnswer": "src",
+    "difficultylevel": "Easy",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "What is the correct HTML element for playing video files?",
+    "option1": "<media>",
+    "option2": "<movie>",
+    "option3": "<video>",
+    "option4": "<file>",
+    "rightAnswer": "<video>",
+    "difficultylevel": "Medium",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "Which HTML element is used to define important text?",
+    "option1": "<b>",
+    "option2": "<strong>",
+    "option3": "<em>",
+    "option4": "<mark>",
+    "rightAnswer": "<strong>",
+    "difficultylevel": "Easy",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "Which HTML attribute is used to define inline CSS styles?",
+    "option1": "style",
+    "option2": "class",
+    "option3": "id",
+    "option4": "styles",
+    "rightAnswer": "style",
+    "difficultylevel": "Medium",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "What is the correct HTML element for inserting a horizontal rule?",
+    "option1": "<hr>",
+    "option2": "<br>",
+    "option3": "<line>",
+    "option4": "<break>",
+    "rightAnswer": "<hr>",
+    "difficultylevel": "Easy",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "Which HTML tag is used to define a table header?",
+    "option1": "<th>",
+    "option2": "<td>",
+    "option3": "<tr>",
+    "option4": "<table>",
+    "rightAnswer": "<th>",
+    "difficultylevel": "Medium",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "Which attribute specifies an alternate text for an image, if the image cannot be displayed?",
+    "option1": "alt",
+    "option2": "title",
+    "option3": "src",
+    "option4": "caption",
+    "rightAnswer": "alt",
+    "difficultylevel": "Easy",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "What is the correct HTML for creating a drop-down list?",
+    "option1": "<input type='dropdown'>",
+    "option2": "<select>",
+    "option3": "<list>",
+    "option4": "<dropdown>",
+    "rightAnswer": "<select>",
+    "difficultylevel": "Medium",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "What is the purpose of the <figure> element in HTML5?",
+    "option1": "To group media content with a caption",
+    "option2": "To create a text box",
+    "option3": "To define a footer",
+    "option4": "To display images",
+    "rightAnswer": "To group media content with a caption",
+    "difficultylevel": "High",
+    "category": "HTML"
+  },
+  {
+    "questionTitle": "Which CSS property is used to make the text bold?",
+    "option1": "font-style",
+    "option2": "font-weight",
+    "option3": "text-transform",
+    "option4": "font-family",
+    "rightAnswer": "font-weight",
+    "difficultylevel": "Easy",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Which CSS property is used to change the font color of text?",
+    "option1": "color",
+    "option2": "text-color",
+    "option3": "font-color",
+    "option4": "background-color",
+    "rightAnswer": "color",
+    "difficultylevel": "Easy",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "How do you add a shadow to text in CSS?",
+    "option1": "text-shadow: 2px 2px #000;",
+    "option2": "font-shadow: 2px 2px #000;",
+    "option3": "shadow: text 2px 2px #000;",
+    "option4": "text-shadow: #000 2px 2px;",
+    "rightAnswer": "text-shadow: 2px 2px #000;",
+    "difficultylevel": "Medium",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Which CSS property is used to control the spacing between elements?",
+    "option1": "margin",
+    "option2": "padding",
+    "option3": "spacing",
+    "option4": "border",
+    "rightAnswer": "margin",
+    "difficultylevel": "Medium",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "How do you make each word in a text start with a capital letter in CSS?",
+    "option1": "text-transform: uppercase;",
+    "option2": "text-transform: capitalize;",
+    "option3": "transform: capitalize;",
+    "option4": "transform: uppercase;",
+    "rightAnswer": "text-transform: capitalize;",
+    "difficultylevel": "Medium",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Which CSS property is used to set the space between the content and the border of an element?",
+    "option1": "margin",
+    "option2": "padding",
+    "option3": "border-spacing",
+    "option4": "border-padding",
+    "rightAnswer": "padding",
+    "difficultylevel": "Medium",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Which CSS property is used to change the background image of an element?",
+    "option1": "background-image",
+    "option2": "background-url",
+    "option3": "bg-image",
+    "option4": "image-url",
+    "rightAnswer": "background-image",
+    "difficultylevel": "Medium",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "How do you select an element with the class name 'header' in CSS?",
+    "option1": "#header",
+    "option2": ".header",
+    "option3": "*header",
+    "option4": "header",
+    "rightAnswer": ".header",
+    "difficultylevel": "Easy",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Which CSS property is used to specify the space between letters?",
+    "option1": "letter-spacing",
+    "option2": "font-spacing",
+    "option3": "text-spacing",
+    "option4": "spacing",
+    "rightAnswer": "letter-spacing",
+    "difficultylevel": "Medium",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "How do you make a list not display bullet points in CSS?",
+    "option1": "list-style-type: none;",
+    "option2": "text-decoration: none;",
+    "option3": "bullet-style: none;",
+    "option4": "list-style: hidden;",
+    "rightAnswer": "list-style-type: none;",
+    "difficultylevel": "Medium",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "How can you make a CSS grid container with three equal columns?",
+    "option1": "grid-template-columns: auto auto auto;",
+    "option2": "grid-template-columns: repeat(3, 1fr);",
+    "option3": "grid-template-rows: repeat(3, 1fr);",
+    "option4": "grid-columns: 3;",
+    "rightAnswer": "grid-template-columns: repeat(3, 1fr);",
+    "difficultylevel": "High",
+    "category": "CSS"
+  },
+  {
+    "questionTitle": "Which method in React is used to update the state of a component?",
+    "option1": "setState()",
+    "option2": "updateState()",
+    "option3": "changeState()",
+    "option4": "modifyState()",
+    "rightAnswer": "setState()",
+    "difficultylevel": "Easy",
+    "category": "React"
+  },
+  {
+    "questionTitle": "What is the purpose of the `useEffect` hook in React?",
+    "option1": "To fetch data after the component mounts",
+    "option2": "To manage state",
+    "option3": "To handle events",
+    "option4": "To perform DOM manipulation",
+    "rightAnswer": "To fetch data after the component mounts",
+    "difficultylevel": "Medium",
+    "category": "React"
+  },
+  {
+    "questionTitle": "How can you pass data from a parent component to a child component in React?",
+    "option1": "Using props",
+    "option2": "Using state",
+    "option3": "Using context",
+    "option4": "Using refs",
+    "rightAnswer": "Using props",
+    "difficultylevel": "Easy",
+    "category": "React"
+  },
+  {
+    "questionTitle": "In React, what does the `useMemo` hook do?",
+    "option1": "Memoizes a function to optimize performance",
+    "option2": "Triggers side effects in functional components",
+    "option3": "Manages stateful logic between components",
+    "option4": "Creates a ref that can hold a mutable value",
+    "rightAnswer": "Memoizes a function to optimize performance",
+    "difficultylevel": "Medium",
+    "category": "React"
+  },
+  {
+    "questionTitle": "Which annotation is used in Hibernate to map a class to a database table?",
+    "option1": "@Entity",
+    "option2": "@Table",
+    "option3": "@MappedSuperclass",
+    "option4": "@Column",
+    "rightAnswer": "@Entity",
+    "difficultylevel": "Easy",
+    "category": "Hibernate"
+  },
+  {
+    "questionTitle": "What is the use of the `Session` object in Hibernate?",
+    "option1": "To create a connection pool",
+    "option2": "To perform CRUD operations on database entities",
+    "option3": "To manage database transactions",
+    "option4": "To handle security and authentication",
+    "rightAnswer": "To perform CRUD operations on database entities",
+    "difficultylevel": "Medium",
+    "category": "Hibernate"
+  },
+  {
+    "questionTitle": "In Hibernate, which caching strategy is used for query caching?",
+    "option1": "Second-level cache",
+    "option2": "First-level cache",
+    "option3": "Query cache",
+    "option4": "Entity cache",
+    "rightAnswer": "Query cache",
+    "difficultylevel": "Hard",
+    "category": "Hibernate"
+  },
+  {
+    "questionTitle": "What is the main purpose of the `@SpringBootApplication` annotation?",
+    "option1": "To enable component scanning, auto-configuration, and Spring Boot configuration",
+    "option2": "To manage data sources",
+    "option3": "To configure security settings",
+    "option4": "To define a REST controller",
+    "rightAnswer": "To enable component scanning, auto-configuration, and Spring Boot configuration",
+    "difficultylevel": "Easy",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "How do you define a RESTful web service endpoint in Spring Boot?",
+    "option1": "Using the `@RequestMapping` annotation on a method",
+    "option2": "Using the `@WebService` annotation on a class",
+    "option3": "Using the `@Endpoint` annotation on a method",
+    "option4": "Using the `@Controller` annotation on a class",
+    "rightAnswer": "Using the `@RequestMapping` annotation on a method",
+    "difficultylevel": "Medium",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "In Spring Boot, what is the role of the `@Transactional` annotation?",
+    "option1": "To manage database transactions",
+    "option2": "To handle caching",
+    "option3": "To perform dependency injection",
+    "option4": "To define a RESTful endpoint",
+    "rightAnswer": "To manage database transactions",
+    "difficultylevel": "Medium",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "Which Spring Boot annotation is used to bind external configuration properties to a Java class?",
+    "option1": "@Configuration",
+    "option2": "@Component",
+    "option3": "@EnableConfigurationProperties",
+    "option4": "@ConfigurationProperties",
+    "rightAnswer": "@ConfigurationProperties",
+    "difficultylevel": "Hard",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "What is a key characteristic of a microservices architecture?",
+    "option1": "Monolithic codebase",
+    "option2": "Loose coupling between services",
+    "option3": "Centralized data storage",
+    "option4": "Single point of failure",
+    "rightAnswer": "Loose coupling between services",
+    "difficultylevel": "Easy",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "How do microservices typically communicate with each other?",
+    "option1": "Through shared memory",
+    "option2": "Via HTTP/REST, messaging queues, or gRPC",
+    "option3": "Using a single database",
+    "option4": "Through monolithic service calls",
+    "rightAnswer": "Via HTTP/REST, messaging queues, or gRPC",
+    "difficultylevel": "Medium",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "In microservices, what is the role of a service registry?",
+    "option1": "To store service configuration",
+    "option2": "To manage database transactions",
+    "option3": "To maintain a dynamic list of available service instances",
+    "option4": "To enforce security policies",
+    "rightAnswer": "To maintain a dynamic list of available service instances",
+    "difficultylevel": "Medium",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "Which pattern is used to handle cross-cutting concerns in microservices?",
+    "option1": "Saga pattern",
+    "option2": "API Gateway pattern",
+    "option3": "Circuit Breaker pattern",
+    "option4": "Strangler pattern",
+    "rightAnswer": "API Gateway pattern",
+    "difficultylevel": "Hard",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "What is the purpose of normalization in a relational database like MySQL?",
+    "option1": "To increase data redundancy",
+    "option2": "To reduce data redundancy and improve data integrity",
+    "option3": "To enhance query performance",
+    "option4": "To simplify database schemas",
+    "rightAnswer": "To reduce data redundancy and improve data integrity",
+    "difficultylevel": "Easy",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "In MySQL, which SQL clause is used to filter records?",
+    "option1": "WHERE",
+    "option2": "HAVING",
+    "option3": "GROUP BY",
+    "option4": "ORDER BY",
+    "rightAnswer": "WHERE",
+    "difficultylevel": "Easy",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "How can you retrieve all the columns from a MySQL table?",
+    "option1": "SELECT * FROM table_name;",
+    "option2": "GET * FROM table_name;",
+    "option3": "FETCH * FROM table_name;",
+    "option4": "EXTRACT * FROM table_name;",
+    "rightAnswer": "SELECT * FROM table_name;",
+    "difficultylevel": "Easy",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "What is the difference between the `INNER JOIN` and `LEFT JOIN` in SQL?",
+    "option1": "INNER JOIN returns only matching rows, LEFT JOIN returns all rows from the left table",
+    "option2": "INNER JOIN returns all rows, LEFT JOIN returns only matching rows",
+    "option3": "There is no difference",
+    "option4": "INNER JOIN is faster than LEFT JOIN",
+    "rightAnswer": "INNER JOIN returns only matching rows, LEFT JOIN returns all rows from the left table",
+    "difficultylevel": "Medium",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "Which method in React is used to update the state of a component?",
+    "option1": "setState()",
+    "option2": "updateState()",
+    "option3": "changeState()",
+    "option4": "modifyState()",
+    "rightAnswer": "setState()",
+    "difficultylevel": "Easy",
+    "category": "React"
+  },
+  {
+    "questionTitle": "What is the purpose of the `useEffect` hook in React?",
+    "option1": "To fetch data after the component mounts",
+    "option2": "To manage state",
+    "option3": "To handle events",
+    "option4": "To perform DOM manipulation",
+    "rightAnswer": "To fetch data after the component mounts",
+    "difficultylevel": "Medium",
+    "category": "React"
+  },
+  {
+    "questionTitle": "How can you pass data from a parent component to a child component in React?",
+    "option1": "Using props",
+    "option2": "Using state",
+    "option3": "Using context",
+    "option4": "Using refs",
+    "rightAnswer": "Using props",
+    "difficultylevel": "Easy",
+    "category": "React"
+  },
+  {
+    "questionTitle": "In React, what does the `useMemo` hook do?",
+    "option1": "Memoizes a function to optimize performance",
+    "option2": "Triggers side effects in functional components",
+    "option3": "Manages stateful logic between components",
+    "option4": "Creates a ref that can hold a mutable value",
+    "rightAnswer": "Memoizes a function to optimize performance",
+    "difficultylevel": "Medium",
+    "category": "React"
+  },
+  {
+    "questionTitle": "Which annotation is used in Hibernate to map a class to a database table?",
+    "option1": "@Entity",
+    "option2": "@Table",
+    "option3": "@MappedSuperclass",
+    "option4": "@Column",
+    "rightAnswer": "@Entity",
+    "difficultylevel": "Easy",
+    "category": "Hibernate"
+  },
+  {
+    "questionTitle": "What is the use of the `Session` object in Hibernate?",
+    "option1": "To create a connection pool",
+    "option2": "To perform CRUD operations on database entities",
+    "option3": "To manage database transactions",
+    "option4": "To handle security and authentication",
+    "rightAnswer": "To perform CRUD operations on database entities",
+    "difficultylevel": "Medium",
+    "category": "Hibernate"
+  },
+  {
+    "questionTitle": "In Hibernate, which caching strategy is used for query caching?",
+    "option1": "Second-level cache",
+    "option2": "First-level cache",
+    "option3": "Query cache",
+    "option4": "Entity cache",
+    "rightAnswer": "Query cache",
+    "difficultylevel": "Hard",
+    "category": "Hibernate"
+  },
+  {
+    "questionTitle": "What is the main purpose of the `@SpringBootApplication` annotation?",
+    "option1": "To enable component scanning, auto-configuration, and Spring Boot configuration",
+    "option2": "To manage data sources",
+    "option3": "To configure security settings",
+    "option4": "To define a REST controller",
+    "rightAnswer": "To enable component scanning, auto-configuration, and Spring Boot configuration",
+    "difficultylevel": "Easy",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "How do you define a RESTful web service endpoint in Spring Boot?",
+    "option1": "Using the `@RequestMapping` annotation on a method",
+    "option2": "Using the `@WebService` annotation on a class",
+    "option3": "Using the `@Endpoint` annotation on a method",
+    "option4": "Using the `@Controller` annotation on a class",
+    "rightAnswer": "Using the `@RequestMapping` annotation on a method",
+    "difficultylevel": "Medium",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "In Spring Boot, what is the role of the `@Transactional` annotation?",
+    "option1": "To manage database transactions",
+    "option2": "To handle caching",
+    "option3": "To perform dependency injection",
+    "option4": "To define a RESTful endpoint",
+    "rightAnswer": "To manage database transactions",
+    "difficultylevel": "Medium",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "Which Spring Boot annotation is used to bind external configuration properties to a Java class?",
+    "option1": "@Configuration",
+    "option2": "@Component",
+    "option3": "@EnableConfigurationProperties",
+    "option4": "@ConfigurationProperties",
+    "rightAnswer": "@ConfigurationProperties",
+    "difficultylevel": "Hard",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "What is a key characteristic of a microservices architecture?",
+    "option1": "Monolithic codebase",
+    "option2": "Loose coupling between services",
+    "option3": "Centralized data storage",
+    "option4": "Single point of failure",
+    "rightAnswer": "Loose coupling between services",
+    "difficultylevel": "Easy",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "How do microservices typically communicate with each other?",
+    "option1": "Through shared memory",
+    "option2": "Via HTTP/REST, messaging queues, or gRPC",
+    "option3": "Using a single database",
+    "option4": "Through monolithic service calls",
+    "rightAnswer": "Via HTTP/REST, messaging queues, or gRPC",
+    "difficultylevel": "Medium",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "In microservices, what is the role of a service registry?",
+    "option1": "To store service configuration",
+    "option2": "To manage database transactions",
+    "option3": "To maintain a dynamic list of available service instances",
+    "option4": "To enforce security policies",
+    "rightAnswer": "To maintain a dynamic list of available service instances",
+    "difficultylevel": "Medium",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "Which pattern is used to handle cross-cutting concerns in microservices?",
+    "option1": "Saga pattern",
+    "option2": "API Gateway pattern",
+    "option3": "Circuit Breaker pattern",
+    "option4": "Strangler pattern",
+    "rightAnswer": "API Gateway pattern",
+    "difficultylevel": "Hard",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "What is the purpose of normalization in a relational database like MySQL?",
+    "option1": "To increase data redundancy",
+    "option2": "To reduce data redundancy and improve data integrity",
+    "option3": "To enhance query performance",
+    "option4": "To simplify database schemas",
+    "rightAnswer": "To reduce data redundancy and improve data integrity",
+    "difficultylevel": "Easy",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "In MySQL, which SQL clause is used to filter records?",
+    "option1": "WHERE",
+    "option2": "HAVING",
+    "option3": "GROUP BY",
+    "option4": "ORDER BY",
+    "rightAnswer": "WHERE",
+    "difficultylevel": "Easy",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "How can you retrieve all the columns from a MySQL table?",
+    "option1": "SELECT * FROM table_name;",
+    "option2": "GET * FROM table_name;",
+    "option3": "FETCH * FROM table_name;",
+    "option4": "EXTRACT * FROM table_name;",
+    "rightAnswer": "SELECT * FROM table_name;",
+    "difficultylevel": "Easy",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "What is the difference between the `INNER JOIN` and `LEFT JOIN` in SQL?",
+    "option1": "INNER JOIN returns only matching rows, LEFT JOIN returns all rows from the left table",
+    "option2": "INNER JOIN returns all rows, LEFT JOIN returns only matching rows",
+    "option3": "There is no difference",
+    "option4": "INNER JOIN is faster than LEFT JOIN",
+    "rightAnswer": "INNER JOIN returns only matching rows, LEFT JOIN returns all rows from the left table",
+    "difficultylevel": "Medium",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "Which hook in React is used for managing local component state?",
+    "option1": "useState",
+    "option2": "useEffect",
+    "option3": "useReducer",
+    "option4": "useContext",
+    "rightAnswer": "useState",
+    "difficultylevel": "Easy",
+    "category": "React"
+  },
+  {
+    "questionTitle": "What is the purpose of the `useReducer` hook in React?",
+    "option1": "To handle complex state logic",
+    "option2": "To manage component lifecycle",
+    "option3": "To perform side effects",
+    "option4": "To manage context",
+    "rightAnswer": "To handle complex state logic",
+    "difficultylevel": "Medium",
+    "category": "React"
+  },
+  {
+    "questionTitle": "How does React’s Context API differ from Redux?",
+    "option1": "Context API is built-in, Redux is a third-party library",
+    "option2": "Context API handles side effects, Redux does not",
+    "option3": "Context API is used for form validation, Redux for state management",
+    "option4": "Context API requires middleware, Redux does not",
+    "rightAnswer": "Context API is built-in, Redux is a third-party library",
+    "difficultylevel": "Medium",
+    "category": "React"
+  },
+  {
+    "questionTitle": "Which lifecycle method is used to run code after a component updates?",
+    "option1": "componentDidUpdate",
+    "option2": "componentDidMount",
+    "option3": "componentWillUnmount",
+    "option4": "shouldComponentUpdate",
+    "rightAnswer": "componentDidUpdate",
+    "difficultylevel": "Medium",
+    "category": "React"
+  },
+  {
+    "questionTitle": "What is the difference between `props` and `state` in React?",
+    "option1": "Props are immutable, state is mutable",
+    "option2": "Props are mutable, state is immutable",
+    "option3": "Props are used for local state, state is used for global state",
+    "option4": "Props manage component lifecycle, state manages side effects",
+    "rightAnswer": "Props are immutable, state is mutable",
+    "difficultylevel": "Easy",
+    "category": "React"
+  },
+  {
+    "questionTitle": "Which Hibernate annotation is used to specify the primary key of an entity?",
+    "option1": "@Id",
+    "option2": "@PrimaryKey",
+    "option3": "@Key",
+    "option4": "@Column",
+    "rightAnswer": "@Id",
+    "difficultylevel": "Easy",
+    "category": "Hibernate"
+  },
+  {
+    "questionTitle": "What is the purpose of `@OneToMany` annotation in Hibernate?",
+    "option1": "To specify a one-to-many relationship between entities",
+    "option2": "To define a many-to-one relationship",
+    "option3": "To handle one-to-one relationships",
+    "option4": "To map an entity to a database table",
+    "rightAnswer": "@OneToMany",
+    "difficultylevel": "Medium",
+    "category": "Hibernate"
+  },
+  {
+    "questionTitle": "How can you perform a batch operation in Hibernate?",
+    "option1": "Using `Session` and `Transaction` with batch size configuration",
+    "option2": "Using `@BatchSize` annotation on entities",
+    "option3": "Using `CriteriaBuilder` with batch processing",
+    "option4": "Using `@Transactional` annotation",
+    "rightAnswer": "Using `Session` and `Transaction` with batch size configuration",
+    "difficultylevel": "Hard",
+    "category": "Hibernate"
+  },
+  {
+    "questionTitle": "What is lazy loading in Hibernate?",
+    "option1": "Loading data on demand rather than at once",
+    "option2": "Loading all data during initialization",
+    "option3": "Loading data during the transaction commit",
+    "option4": "Loading data before the transaction begins",
+    "rightAnswer": "Loading data on demand rather than at once",
+    "difficultylevel": "Medium",
+    "category": "Hibernate"
+  },
+  {
+    "questionTitle": "What is the purpose of `@Transactional` in Spring Boot?",
+    "option1": "To manage transaction boundaries",
+    "option2": "To handle HTTP requests",
+    "option3": "To configure security settings",
+    "option4": "To enable component scanning",
+    "rightAnswer": "To manage transaction boundaries",
+    "difficultylevel": "Easy",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "How do you create a RESTful web service in Spring Boot?",
+    "option1": "Using `@RestController` annotation",
+    "option2": "Using `@Service` annotation",
+    "option3": "Using `@Component` annotation",
+    "option4": "Using `@Repository` annotation",
+    "rightAnswer": "Using `@RestController` annotation",
+    "difficultylevel": "Easy",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "What is Spring Boot Starter used for?",
+    "option1": "To include a set of dependencies in your project",
+    "option2": "To configure the database",
+    "option3": "To manage security settings",
+    "option4": "To create microservices",
+    "rightAnswer": "To include a set of dependencies in your project",
+    "difficultylevel": "Easy",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "What is the purpose of `@Configuration` in Spring Boot?",
+    "option1": "To define beans and configuration for the application",
+    "option2": "To handle HTTP requests",
+    "option3": "To manage security settings",
+    "option4": "To perform dependency injection",
+    "rightAnswer": "To define beans and configuration for the application",
+    "difficultylevel": "Medium",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "What is the role of `application.properties` in Spring Boot?",
+    "option1": "To configure application settings",
+    "option2": "To define entity mappings",
+    "option3": "To manage database transactions",
+    "option4": "To handle security settings",
+    "rightAnswer": "To configure application settings",
+    "difficultylevel": "Easy",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "How can you enable JPA repositories in Spring Boot?",
+    "option1": "Using `@EnableJpaRepositories` annotation",
+    "option2": "Using `@EntityScan` annotation",
+    "option3": "Using `@ComponentScan` annotation",
+    "option4": "Using `@SpringBootApplication` annotation",
+    "rightAnswer": "Using `@EnableJpaRepositories` annotation",
+    "difficultylevel": "Medium",
+    "category": "Spring Boot"
+  },
+  {
+    "questionTitle": "What is the primary benefit of using microservices architecture?",
+    "option1": "Scalability and independent deployment",
+    "option2": "Monolithic application structure",
+    "option3": "Centralized data storage",
+    "option4": "Single point of failure",
+    "rightAnswer": "Scalability and independent deployment",
+    "difficultylevel": "Easy",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "How do you handle inter-service communication in a microservices architecture?",
+    "option1": "Using HTTP REST or messaging queues",
+    "option2": "Using shared databases",
+    "option3": "Using direct method calls",
+    "option4": "Using file-based communication",
+    "rightAnswer": "Using HTTP REST or messaging queues",
+    "difficultylevel": "Medium",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "What is a common pattern used for managing transactions in microservices?",
+    "option1": "Saga pattern",
+    "option2": "Monolithic pattern",
+    "option3": "Layered pattern",
+    "option4": "Repository pattern",
+    "rightAnswer": "Saga pattern",
+    "difficultylevel": "Medium",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "What is the purpose of an API Gateway in a microservices architecture?",
+    "option1": "To provide a single entry point and manage request routing",
+    "option2": "To handle internal service-to-service communication",
+    "option3": "To store and manage service data",
+    "option4": "To enforce security policies",
+    "rightAnswer": "To provide a single entry point and manage request routing",
+    "difficultylevel": "Medium",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "How can you implement service discovery in a microservices architecture?",
+    "option1": "Using a service registry like Eureka",
+    "option2": "Using a centralized database",
+    "option3": "Using static configuration files",
+    "option4": "Using manual service lookups",
+    "rightAnswer": "Using a service registry like Eureka",
+    "difficultylevel": "Hard",
+    "category": "Microservices"
+  },
+  {
+    "questionTitle": "What SQL command is used to create a new table in MySQL?",
+    "option1": "CREATE TABLE",
+    "option2": "ADD TABLE",
+    "option3": "MAKE TABLE",
+    "option4": "NEW TABLE",
+    "rightAnswer": "CREATE TABLE",
+    "difficultylevel": "Easy",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "What is an index in MySQL and why is it used?",
+    "option1": "An index improves query performance by reducing the number of rows scanned",
+    "option2": "An index stores large amounts of data",
+    "option3": "An index handles user authentication",
+    "option4": "An index controls database transactions",
+    "rightAnswer": "An index improves query performance by reducing the number of rows scanned",
+    "difficultylevel": "Medium",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "How can you enforce data integrity in MySQL?",
+    "option1": "Using constraints like PRIMARY KEY, FOREIGN KEY, UNIQUE",
+    "option2": "Using indexing",
+    "option3": "Using data types",
+    "option4": "Using normalization",
+    "rightAnswer": "Using constraints like PRIMARY KEY, FOREIGN KEY, UNIQUE",
+    "difficultylevel": "Medium",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "What is the purpose of the `GROUP BY` clause in SQL?",
+    "option1": "To aggregate rows based on a specified column",
+    "option2": "To filter rows based on conditions",
+    "option3": "To sort the result set",
+    "option4": "To join multiple tables",
+    "rightAnswer": "To aggregate rows based on a specified column",
+    "difficultylevel": "Medium",
+    "category": "MySQL"
+  },
+  {
+    "questionTitle": "What is the difference between `TRUNCATE` and `DELETE` commands in MySQL?",
+    "option1": "TRUNCATE is faster and cannot be rolled back, DELETE can be rolled back",
+    "option2": "DELETE is faster and cannot be rolled back, TRUNCATE can be rolled back",
+    "option3": "TRUNCATE is used for dropping tables, DELETE is used for modifying rows",
+    "option4": "TRUNCATE is used for adding rows, DELETE is used for creating tables",
+    "rightAnswer": "TRUNCATE is faster and cannot be rolled back, DELETE can be rolled back",
+    "difficultylevel": "Hard",
+    "category": "MySQL"
+  }
+]
