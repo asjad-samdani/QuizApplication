@@ -1,6 +1,5 @@
 package com.example.quizApp.controller;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -17,21 +16,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.quizApp.entity.Question;
-import com.example.quizApp.server.QuizService;
+import com.example.quizApp.server.QuestionService;
 
 @RestController
 @RequestMapping("/question")
 public class QuestionController {
     @Autowired
-    private QuizService quizService;
+    QuestionService questionService;
 
     @GetMapping("/allQuestions")
     public ResponseEntity<?> getAllQuestions() {
-        List<Question> allQuestions = quizService.getAllQuestions();
+        List<Question> allQuestions = questionService.getAllQuestions();
         if (allQuestions.isEmpty()) {
-            Map<String, String> errorResponse = new HashMap<>();
-            errorResponse.put("message", "Question Not found");
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorResponse);
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(Map.of("message", "No questions found"));
 
         } else {
             return ResponseEntity.ok(allQuestions);
@@ -41,49 +38,46 @@ public class QuestionController {
 
     @GetMapping("/category/{category}")
     public ResponseEntity<?> getQuestionsByCategory(@PathVariable String category) {
-        List<Question> allQuestionsBycategory = quizService.getAllQuestionsBycategory(category);
-        if (allQuestionsBycategory.isEmpty()) {
-            Map<String, String> errorMessage = new HashMap<>();
-            errorMessage.put("Message", "Category questions not available");
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorMessage);
+        List<Question> QuestionsBycategory = questionService.getAllQuestionsBycategory(category);
+        if (QuestionsBycategory.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                    .body(Map.of("message", "No questions found in this category"));
 
         } else {
-            return ResponseEntity.ok(allQuestionsBycategory);
+            return ResponseEntity.ok(QuestionsBycategory);
         }
 
     }
 
     // Sorting the Question
     @GetMapping("/sortQuestion/{category}")
-    public ResponseEntity<?> getMethodName(@PathVariable String category) {
-        List<Question> questions = quizService.findBooksWithSorting(category);
-        if (questions.isEmpty()) {
-            return ResponseEntity.noContent().build();
+    public ResponseEntity<?> sortQuestionsByCategory(@PathVariable String category) {
+        List<Question> sortedQuestions = questionService.findBooksWithSorting(category);
+        if (sortedQuestions.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
         }
-        return ResponseEntity.ok(questions);
+        return ResponseEntity.ok(sortedQuestions);
 
     }
 
     @PostMapping("/addQuestions")
     public ResponseEntity<?> addQuestins(@RequestBody List<Question> addQuestions) {
 
-        List<Question> updateBookById = quizService.addAllQuestions(addQuestions);
-        return ResponseEntity.status(HttpStatus.CREATED).body(updateBookById);
+        List<Question> addedQuestions = questionService.addAllQuestions(addQuestions);
+        return ResponseEntity.status(HttpStatus.CREATED).body(addedQuestions);
 
     }
 
     @PutMapping("/update/{id}")
     public ResponseEntity<?> putMethodName(@RequestBody Question question, @PathVariable Integer id) {
-        Map<String, String> response = new HashMap<>();
-        Question updatedQuestion = quizService.updateQuestion(question, id);
+        Question updatedQuestion = questionService.updateQuestion(question, id);
         if (updatedQuestion != null) {
-
-            response.put("message", "Updated Successfully!");
-            return ResponseEntity.ok(response);
+            return ResponseEntity.ok(Map.of("message", "Updated successfully"));
 
         } else {
-            response.put("message", "Question not found or update failed");
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
+
+            return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                    .body(Map.of("message", "Question not found or update failed"));
 
         }
 
@@ -91,15 +85,12 @@ public class QuestionController {
 
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> deleteQuestion(@PathVariable Integer id) {
-        Map<String, String> response = new HashMap<>();
-
-        boolean isDeleted = quizService.deleteBookById(id);
+        boolean isDeleted = questionService.deleteQuestionById(id);
         if (isDeleted) {
-            response.put("message", "Question deleted successfully");
-            return ResponseEntity.ok(response);
+
+            return ResponseEntity.ok(Map.of("message", "Question deleted successfully"));
         } else {
-            response.put("message", "Id not found!");
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(Map.of("message", "Question ID not found"));
         }
     }
 

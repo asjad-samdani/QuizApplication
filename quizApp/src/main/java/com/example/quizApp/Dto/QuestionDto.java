@@ -1,12 +1,8 @@
-package com.example.quizApp.entity;
+package com.example.quizApp.Dto;
 
-import java.util.List;
-
-import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToMany;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,10 +10,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class Question {
+public class QuestionDto {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
@@ -26,11 +21,4 @@ public class Question {
     private String option2;
     private String option3;
     private String option4;
-    private String rightAnswer;
-    private String difficultylevel;
-    private String category;
-
-    @ManyToMany(mappedBy = "question")
-    private List<Quiz> quizzes;
-
 }
